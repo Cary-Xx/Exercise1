@@ -1,0 +1,8 @@
+control_flow_graph {
+
+	node [shape = rectangle]; entry exit;
+	node [shape = circle];
+
+	entry -> 0;
+	0 -> 1;
+	1 -> 4;
